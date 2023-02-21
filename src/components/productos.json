@@ -1,0 +1,63 @@
+[
+    {"id": 1 , "name": "Cafe Costa Rica", "description": "Café Vida captura el perfil clásico de un café costarricense lavado, con una dulzura incial, un sabor a nuez suave y acidez cítrica chispeante pero suave." , 
+    "precio": 3700 , "imagen": "/img/cafe-costarica.png", "stock": 10, "categoria": "cafe"
+    },
+    
+    {"id": 2 , "name": "Gaitania Colombia", "description": "Se caracteriza por una fragancia y aroma a chocolate, buen dulzor y frutos rojos, notas frutales, flor de café, acidez media alta y un cuerpo medio balanceado." , 
+    "precio": 2800 , "imagen": "/img/gaitania-colombia.png" , "stock": 15, "categoria": "cafe" 
+    },
+
+    {"id": 3 , "name": "Huila Colombia", "description": "Cuenta con una impresión balanceada  con notas dulces, acidez y cuerpo medio/alto, fragancia y aroma intenso, con sensaciones frutales y acarameladas." , 
+    "precio": 2400 , "imagen": "/img/huila-colombia.png" , "stock": 20, "categoria": "cafe"
+    },
+
+    {"id": 4 , "name": "Tega Ethiopia", "description": "Equilibrado, dulce, cítrico y cremoso con sabores de caramelo, pasas y cacao." , 
+    "precio": 4300 , "imagen": "/img/tega-ethiopia.png" , "stock": 10, "categoria": "cafe"
+    },
+
+    {"id": 5 , "name": "Tucan Brasil", "description": "Café Tucán Brasil con toques a cereza, ciruela, frambuesa, acidez tartárica." , 
+    "precio": 2600 , "imagen": "/img/tucan-brasil.png" , "stock": 15, "categoria": "cafe"
+    },
+
+    {"id": 6 , "name": "Cafe Guanes Genuino Colombia", "description": "Cacao Maduro, frutos secos, caramelo y cítricos. Acidez Media Cítrica. Cuerpo medio-bajo y persistencia delicada." , 
+    "precio": 2300 , "imagen": "/img/cafe-guanes.jpg" , "stock": 20, "categoria": "cafe"
+    },
+
+    {"id": 7 , "name": "Blanco Citric", "description": "Chocolate blanco con lima y jengibre" , 
+    "precio": 1400 , "imagen": "/img/blanco.jpg", "stock": 20, "categoria": "chocolate"
+    },
+    
+    {"id": 8 , "name": "Blanco Pepper", "description": "Chocolate blanco con pimienta rosa" , 
+    "precio": 1500 , "imagen": "/img/blanco-pepper.jpg" , "stock": 15, "categoria": "chocolate" 
+    },
+
+    {"id": 9 , "name": "Blanco Salty", "description": "Chocolate blanco con sal del Himalaya" , 
+    "precio": 2000 , "imagen": "/img/blanco-salty.jpg" , "stock": 10, "categoria": "chocolate"
+    },
+
+    {"id": 10 , "name": "Avellanas", "description": "Chocolate semiamargo con avellanas. 60% cacao." , 
+    "precio": 3100 , "imagen": "/img/semi-avellanas.jpg" , "stock": 25, "categoria": "chocolate"
+    },
+
+    {"id": 11 , "name": "Orange", "description": "Chocolate semiamargo con naranja. 60% cacao." , 
+    "precio": 2600 , "imagen": "/img/semi-naranja.jpg" , "stock": 15, "categoria": "chocolate"
+    },
+
+    {"id": 12 , "name": "Curry", "description": "Chocolate semiamargo con curry. 60% cacao." ,  
+    "precio": 4200 , "imagen": "/img/semi-curry.jpg" , "stock": 10, "categoria": "chocolate"
+    },
+
+    {"id": 13 , "name": "Cafetera Italiana", "description": "Cafetera Bialetti moka express roja." ,  
+    "precio": 23500 , "imagen": "/img/moka-color.jpg" , "stock": 10, "categoria": "cafetera"
+    },
+
+    {"id": 14 , "name": "Cafetera Francesa", "description": "Cafetera Bialetti press smart negro." ,  
+    "precio": 18000 , "imagen": "/img/francesa.jpg" , "stock": 15, "categoria": "cafetera"
+    },
+
+    {"id": 15 , "name": "Cafetera Mini Express", "description": "Cafetera Bialetti set mini express Kandinsky." ,  
+    "precio": 43000 , "imagen": "/img/kandinsky.png" , "stock": 5, "categoria": "cafetera"
+    }
+
+
+]

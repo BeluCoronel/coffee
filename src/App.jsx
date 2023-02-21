@@ -2,15 +2,23 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Carrousel from "./components/Carrousel";
 import ItemListContainer from "./components/ItemListContainer";
+import ItemDetailContainer from "./components/ItemDetailContainer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <NavBar/>
-      <Carrousel/>
-      <ItemListContainer mensaje={"Probá el mejor café"} />
-      <Footer/>
-    </div>
+    <BrowserRouter>
+      <div>
+        <NavBar />
+        <Carrousel />
+        <Routes>
+          <Route path={"/"} element={<ItemListContainer />} />
+          <Route path={"/category/:id"} element={<ItemListContainer />} />
+          <Route path={"/item/:id"} element={<ItemDetailContainer />} />
+        </Routes>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 
