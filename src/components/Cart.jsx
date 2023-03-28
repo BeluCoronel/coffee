@@ -56,7 +56,7 @@ const Cart = () => {
 
 
     return (
-
+        
         <div className="container m-0">
             <div className="row">
                 <h1 className="text-center">Productos seleccionados</h1>
