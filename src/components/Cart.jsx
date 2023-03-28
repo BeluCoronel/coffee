@@ -20,14 +20,32 @@ const Cart = () => {
         const orden = { comprador: comprador, item: cart.map(({ id, name, cantidad, precio, totalParcial }) => ({ id, name, cantidad, precio, totalParcial: cantidad * precio })), date: date, total: cartSuma() };
 
         if (nombre.length === 0) {
+            Swal.fire({
+                title: 'Complete datos',
+                text: `Campo nombre sin datos`,
+                icon: 'error',
+                confirmButtonText: 'Ok'
+            });
             return false;
         }
 
         if (email.length === 0) {
+            Swal.fire({
+                title: 'Complete datos',
+                text: `Campo email sin datos`,
+                icon: 'error',
+                confirmButtonText: 'Ok'
+            });
             return false;
         }
 
         if (telefono.length === 0) {
+            Swal.fire({
+                title: 'Complete datos',
+                text: `Campo telefono sin datos`,
+                icon: 'error',
+                confirmButtonText: 'Ok'
+            });
             return false;
         }
 
@@ -56,7 +74,7 @@ const Cart = () => {
 
 
     return (
-        
+
         <div className="container m-0">
             <div className="row">
                 <h1 className="text-center">Productos seleccionados</h1>
